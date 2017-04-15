@@ -2,19 +2,17 @@
 <html>                                                                                                                                  
   <head>                                                                                                                                
     <meta charset="UTF-8">                                                                                                              
-    <link rel="stylesheet" href="css/src.css" />
-    <link rel="stylesheet" href="css/solarized-light.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/src.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/solarized-light.css" />
     <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/go.min.js"></script>
-    <script src="js/src.js"></script>
+    <script src="{{ site.baseurl }}/js/src.js"></script>
   </head>
   <body>
     <div id="background">
     </div>
     <div id="content">
-
       {{ content }}
-
     </div>
   </body>
 </html>
