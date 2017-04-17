@@ -14,24 +14,26 @@ body {
   z-index: -1;
   background: inherit;
   opacity: 0.2;
-  /* filter: blur(1px); */
-  transform: translate(25%, -15%) rotate(-25deg);
+  /* filter: blur(2px); (too slow on chromebook) */
+  transform: scale(2.5, 2.5) rotateZ(-15deg) translate(36%, 28%);
 }
 
 #content {
+  background: rgba(255, 255, 255, 0.2);
   max-width: 600px;
   margin: auto;
   margin-top: 30px;
   padding: 0px 100px 0px 15px;
   font-family: "Merriweather";
+  font-size: 110%;
 }
 
-h1 {
+#content h1 {
   margin-top: 50px;
 }
 
 #content img {
   float: right;
   border: 1px solid #ccc;
-  margin: 0px -200px 30px 50px;
+  margin: 0px -100px 30px 50px;
 }

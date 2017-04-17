@@ -2,14 +2,14 @@
 layout: src
 ---
 
-![profound selfie](/images/crop-and-blur.jpg)
-
 **David Owen**  
 **Associate Professor of Computer Science**  
 **Messiah College**  
 
 # Hello, world!
 
+<!-- ![profound selfie](/images/crop-and-blur.jpg) -->
+<img src="{{ site.baseurl }}/images/crop-and-blur.jpg" alt="profound selfie" style="width:200px">
 This picture, made a couple of years ago for a
 Twitter account, is supposed to represent the
 way people sometimes portray themselves online.
