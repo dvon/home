@@ -9,7 +9,7 @@ layout: src
 # Hello, world!
 
 <!-- ![profound selfie](/images/crop-and-blur.jpg) -->
-<img src="{{ site.baseurl }}/images/crop-and-blur.jpg" alt="profound selfie" style="width:200px">
+<img src="{{ site.baseurl }}/images/crop-and-blur.jpg" alt="profound selfie" style="width:256px">
 This picture, made a couple of years ago for a
 Twitter account, is supposed to represent the
 way people sometimes portray themselves online.
@@ -20,12 +20,12 @@ a way that would produce the recursive effect you can get with
 two mirrors facing each other.  This is meant to
 be symbolic of the way so much online "content"
 is just a reference to something else, which in turn
-references something else, which references something
-else, etc.
+references something else, which references yet another
+"source," etc.
 
-The background is a faintly visible version of the
-HTML source code from which this page was produced.  Like the
-picture, it's supposed to suggest that there's something
+The background for this page is generated from the
+HTML source code from which the page is produced.  Like the
+picture, it's supposed to suggest something going on
 behind what you see on the screen---something fuzzy and inaccessible
 but perhaps more real than the clearly displayed surface
 presentation.  (Also it seemed like an interesting challenge---how
@@ -54,8 +54,8 @@ working together in the background to produce what we see on the
 screen.  Better yet, as we learn more about how it all works, we
 can interact with computers in increasingly creative ways,
 perhaps even creating new technologies that invite others to
-participate in this fascinating world, to become "understanders"
-and not just "users."
+participate in this fascinating world, to become "understanders,"
+not just "users."
 
 # What should I be working on (instead of this website)?
 

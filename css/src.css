@@ -19,11 +19,15 @@ body {
 }
 
 #content {
-  background: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.6) 4%,
+      rgba(255, 255, 255, 0.3) 90%,
+      rgba(255, 255, 255, 0) 100%);
   max-width: 600px;
   margin: auto;
   margin-top: 30px;
-  padding: 0px 100px 0px 15px;
+  padding: 0px 100px 0px 20px;
   font-family: "Merriweather";
   font-size: 110%;
 }
@@ -35,5 +39,5 @@ body {
 #content img {
   float: right;
   border: 1px solid #ccc;
-  margin: 0px -100px 30px 50px;
+  margin: 5px -100px 25px 50px;
 }
