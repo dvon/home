@@ -111,6 +111,6 @@ one of these projects and forgotten about it.)
 
 -   Example programs from Adrian Kaehler and Gary Bradski's
     *Learning OpenCV 3*, translated (from C++) to Python 3:
-    coming soon...
+    <https://github.com/dvon/locv/>
 
 -   Three new songs:  coming soon...
