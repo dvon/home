@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,700,700italic);
 
 body {
-  /* background: #fdf6e3; */
+  background: rgb(253, 250, 240);
 }
 
 #background {
@@ -20,14 +20,14 @@ body {
 
 #content {
   background-image: linear-gradient(to right,
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0.6) 4%,
-      rgba(255, 255, 255, 0.3) 90%,
-      rgba(255, 255, 255, 0) 100%);
-  max-width: 600px;
+      rgba(253, 250, 240, 0),
+      rgba(253, 250, 240, 0.6) 5%,
+      rgba(253, 250, 240, 0.4) 80%,
+      rgba(253, 250, 240, 0) 100%);
+  max-width: 610px;
   margin: auto;
   margin-top: -10px;
-  padding: 30px 100px 0px 20px;
+  padding: 30px 100px 0px 25px;
   font-family: "Merriweather";
   font-size: 110%;
 }
