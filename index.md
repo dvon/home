@@ -9,7 +9,7 @@ layout: src
 # Hello, world!
 
 <!-- ![profound selfie](/images/crop-and-blur.jpg) -->
-<img src="{{ site.baseurl }}/images/crop-and-blur.jpg" alt="profound selfie" style="width:240px">
+<img src="{{ site.baseurl }}/images/crop-and-blur.jpg" alt="profound selfie" style="width:200px">
 This picture, made a couple of years ago for a
 Twitter account, is supposed to represent the
 way people sometimes portray themselves online.
@@ -92,6 +92,25 @@ our game design course
 
 Here are some other things I wish I had more time to work on.
 (If this website is out of date, I've probably been working on
-one of these project and forgotten about it.)
+one of these projects and forgotten about it.)
 
--   TODO...
+-   I imagine this might someday be a book about 3D graphics
+    programming for the web <https://dvon.github.io/cgbk/>.
+    Here's a related tutorial presentation for the CCSC Eastern
+    (<http://www.ccsc-eastern.org>) fall 2016 conference, showing
+    how to use Github Pages (<https://pages.github.com>) for a
+    site that needs to have good-looking source code examples and
+    mathematical notation: <https://dvon.github.io/ccsc-tutorial/>
+
+-   Various Python programs I use to work with the Canvas
+    (<https://www.canvaslms.com/>) API (<https://api.instructure.com/>)
+    from the command-line, together with related programs for
+    working with Markdown
+    (<https://daringfireball.net/projects/markdown/>):
+    <https://github.com/dvon/canvas-cli/>
+
+-   Example programs from Adrian Kaehler and Gary Bradski's
+    *Learning OpenCV 3*, translated (from C++) to Python 3:
+    coming soon...
+
+-   Three new songs:  coming soon...

@@ -24,12 +24,12 @@ body {
       rgba(253, 250, 240, 0.6) 5%,
       rgba(253, 250, 240, 0.4) 80%,
       rgba(253, 250, 240, 0) 100%);
-  max-width: 610px;
+  max-width: 620px;
   margin: auto;
   margin-top: -10px;
-  padding: 30px 100px 0px 25px;
+  padding: 30px 100px 50px 25px;
   font-family: "Merriweather";
-  font-size: 110%;
+  /* font-size: 110%; */
 }
 
 #content h1 {
