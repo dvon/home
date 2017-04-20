@@ -15,7 +15,7 @@ body {
   background: inherit;
   opacity: 0.15;
   /* filter: blur(2px); (too slow on chromebook) */
-  transform: scale(2.5, 2.5) rotateZ(-15deg) translate(36%, 28%);
+  transform: scale(2.5, 2.5) rotateZ(-15deg) translate(40%, 25%);
 }
 
 #content {
