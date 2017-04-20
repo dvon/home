@@ -96,6 +96,7 @@ one of these projects and forgotten about it.)
 
 -   I imagine this might someday be a book about 3D graphics
     programming for the web: <https://dvon.github.io/cgbk/>.
+
     Here's a related tutorial presentation for the [CCSC
     Eastern](http://www.ccsc-eastern.org) fall 2016 conference,
     showing how to use [Github Pages](https://pages.github.com)
