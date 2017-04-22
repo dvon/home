@@ -118,4 +118,6 @@ one of these projects and forgotten about it.)
     ([from C++](https://github.com/oreillymedia/Learning-OpenCV-3_examples))
     to Python 3: <https://github.com/dvon/locv/>
 
-<!-- -   Three new songs:  coming soon... -->
+-   Here is a song based on Matthew 5:44-45 (with a tune I made
+    up around the time my oldest son Gareth was a baby):
+    [Like Your Father (Gareth's Waltz)]({{ site.baseurl }}/music/like_your_father.svg)
