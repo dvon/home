@@ -120,4 +120,4 @@ one of these projects and forgotten about it.)
 
 -   Here is a song based on Matthew 5:44-45 (with a tune I made
     up around the time my oldest son Gareth was a baby):
-    [Like Your Father (Gareth's Waltz)]({{ site.baseurl }}/music/like_your_father.svg)
+    [Like Your Father (Gareth's Waltz)]({{ site.baseurl }}/music/like_your_father.pdf)
