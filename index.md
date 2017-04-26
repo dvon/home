@@ -118,6 +118,19 @@ one of these projects and forgotten about it.)
     ([from C++](https://github.com/oreillymedia/Learning-OpenCV-3_examples))
     to Python 3: <https://github.com/dvon/locv/>
 
--   Here is a song based on Matthew 5:44-45 (with a tune I made
-    up around the time my oldest son Gareth was a baby):
+-   Here is a song based on Jesus' words in Matthew 5:44-45 (with
+    a tune I made up around the time my oldest son Gareth was a baby):
     [Like Your Father (Gareth's Waltz)]({{ site.baseurl }}/music/like_your_father.pdf)
+
+## Acknowledgments
+
+The idea for the picture and the source code in the background
+comes from reading Albert Borgmann's
+[*Power Failure: Christianity in the Culture of Technology*](http://bakerpublishinggroup.com/books/power-failure/227810),
+which introduced me to the "device paradigm," his way of talking
+about the division between the "commodity" presented to consumers
+and the hidden "machinery" required to make it happen.  I used
+[highlight.js](https://highlightjs.org/)
+to do the syntax highlighting, with the light version of the
+[solarized](http://ethanschoonover.com/solarized)
+colorscheme.
