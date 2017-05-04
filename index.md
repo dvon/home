@@ -120,7 +120,8 @@ one of these projects and forgotten about it.)
 
 -   Here is a song based on Jesus' words in Matthew 5:44-45 (with
     a tune I made up around the time my oldest son Gareth was a baby):
-    [Like Your Father (Gareth's Waltz)]({{ site.baseurl }}/music/like_your_father.pdf)  Here's another song, based on Luke 6:20-23:
+    [Like Your Father (Gareth's Waltz)]({{ site.baseurl }}/music/like_your_father.pdf).
+    Here's another song, based on Luke 6:20-23:
     [He Will Give His Kingdom To You]({{ site.baseurl }}/music/he_will_give_his_kingdom_to_you.pdf)
 
 ## Acknowledgments
