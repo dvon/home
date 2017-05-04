@@ -102,7 +102,7 @@ one of these projects and forgotten about it.)
     showing how to use [Github Pages](https://pages.github.com)
     for a site that needs to have good-looking source code
     examples and mathematical notation:
-    <https://dvon.github.io/ccsc-tutorial/>
+    <https://dvon.github.io/ccsc-tutorial/>.
 
 -   Various Python programs I use to work with the
     [Canvas](https://www.canvaslms.com/)
@@ -110,19 +110,19 @@ one of these projects and forgotten about it.)
     from the command-line, together with related programs for
     working with
     [Markdown](https://daringfireball.net/projects/markdown/):
-    <https://github.com/dvon/canvas-cli/>
+    <https://github.com/dvon/canvas-cli/>.
 
 -   Example programs from Adrian Kaehler and Gary Bradski's
     [*Learning OpenCV 3*](http://shop.oreilly.com/product/0636920044765.do),
     translated
     ([from C++](https://github.com/oreillymedia/Learning-OpenCV-3_examples))
-    to Python 3: <https://github.com/dvon/locv/>
+    to Python 3: <https://github.com/dvon/locv/>.
 
 -   Here is a song based on Jesus' words in Matthew 5:44-45 (with
     a tune I made up around the time my oldest son Gareth was a baby):
     [Like Your Father (Gareth's Waltz)]({{ site.baseurl }}/music/like_your_father.pdf).
     Here's another song, based on Luke 6:20-23:
-    [He Will Give His Kingdom To You]({{ site.baseurl }}/music/he_will_give_his_kingdom_to_you.pdf)
+    [He Will Give His Kingdom To You]({{ site.baseurl }}/music/he_will_give_his_kingdom_to_you.pdf).
 
 ## Acknowledgments
 
