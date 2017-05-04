@@ -77,7 +77,7 @@ and Joshua Bloch's book,
 ideas and put them in a form that's more accessible to students
 in their first Java course.)
 
-I addition the introductory programming courses, I teach a
+In addition the introductory programming courses, I teach a
 course in computer organization and systems programming
 ([CIS 384](https://banner.messiah.edu:5000/BANR/mc_bwckctlg.P_EnterCatalog?subject=CIS&course=384)),
 as well as courses in operating systems
