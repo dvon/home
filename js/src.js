@@ -1,11 +1,11 @@
-/*global document */                                                                                                                    
-                                                                                                                                        
+/*global document, hljs */
+
 (function (global) {
     "use strict";
-    
+
     global.onload = function () {
         var h, s;
-        
+
         h = document.getElementsByTagName("html")[0];
         h = h.innerHTML.replace(/</g, "&lt;");
         h = h.replace(/[ \n]*\n+/g, "\n");
