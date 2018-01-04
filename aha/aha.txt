@@ -2,7 +2,7 @@
 
 -   Associate Professor of Computer Science, *Messiah College*,
     Grantham, PA.
--   This presentation: <https://dvon.github.io/home/aha/>
+-   This presentation: <https://dvon.github.io/home/aha/aha.pdf>
 
 # Disclaimer
 
