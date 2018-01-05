@@ -11,7 +11,7 @@
 <h1>David Owen</h1>
 <ul>
 <li>Associate Professor of Computer Science, <em>Messiah College</em>, Grantham, PA.</li>
-<li>This presentation: <a href="https://dvon.github.io/home/aha/aha.pdf" class="uri">https://dvon.github.io/home/aha/aha.pdf</a></li>
+<li>This presentation: <a href="https://dvon.github.io/home/aha/" class="uri">https://dvon.github.io/home/aha/</a></li>
 </ul>
 </section>
 <section id="disclaimer" class="slide level1">
@@ -37,34 +37,16 @@
 <ul>
 <li>From Harrisburg census forms, from about 100 years ago.</li>
 </ul></li>
-<li><em>Optical character recognition</em> (OCR) software works well…
-<ul>
-<li>For machine-generated text.</li>
-<li>For handwritten text, if training data is available.</li>
-</ul></li>
-<li>But what about <em>handwritten text, without training data</em>?
-<ul>
-<li>If content is relatively simple, limited to a small number of possibilities?</li>
-</ul></li>
-</ul>
-</section>
-<section id="background-2" class="slide level1">
-<h1>Background (2)</h1>
-<ul>
-<li>OCR software is designed to recognize characters in image data.
+<li><em>Optical character recognition</em> (OCR) software is designed to recognize characters in image data.
 <ul>
 <li>…to <em>“read” the text in a picture</em>.</li>
 <li>It’s particularly hard to recognize <em>handwritten</em> characters.</li>
 </ul></li>
 <li>But maybe we don’t need to recognize characters.
 <ul>
-<li>If we had <em>a way to group similar images</em>.</li>
+<li>If we had <em>a way to group similar images</em>…</li>
+<li>A human user could interpret a single image; that interpretation could be applied to all images in the group.</li>
 </ul></li>
-<li><em>A human user</em> could interpret a single image, representative of a group.
-<ul>
-<li>The software could then apply that interpretation to all of the images in the group.</li>
-</ul></li>
-<li>Work up to this point makes use of <a href="https://opencv.org/">OpenCV</a> and <a href="http://scikit-image.org/">scikit-image</a> software libraries for computer vision and image processing, via <a href="https://www.python.org/">Python</a> (3) bindings.</li>
 </ul>
 </section>
 <section id="overview" class="slide level1">
@@ -96,10 +78,10 @@
 <ul>
 <li><a href="example.jpg" title="example scan">Example scan</a>…</li>
 </ul></li>
-<li>How would we automatically <em>generate a template</em>?
+<li>How might we <em>generate a template</em> to represent what scans have in common?
 <ul>
 <li>To specify where to crop cell images, where within cell image are boundaries to be deleted.</li>
-<li><a href="composite.jpg" title="composite image">Composite image</a>, <a href="template.jpg" title="template image">template image</a>…</li>
+<li><a href="composite.jpg" title="composite image">Composite image</a>…</li>
 </ul></li>
 <li>Will <em>a single template</em> will be sufficient?
 <ul>

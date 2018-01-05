@@ -2,7 +2,7 @@
 
 -   Associate Professor of Computer Science, *Messiah College*,
     Grantham, PA.
--   This presentation: <https://dvon.github.io/home/aha/aha.pdf>
+-   This presentation: <https://dvon.github.io/home/aha/>
 
 # Disclaimer
 
@@ -24,35 +24,16 @@
 -   Specific goal is to *speed up process of converting scans*.
     -   From Harrisburg census forms, from about 100 years ago.
 
--   *Optical character recognition* (OCR) software works well...
-    -   For machine-generated text.
-    -   For handwritten text, if training data is available.
-
--   But what about *handwritten text, without training data*?
-    -   If content is relatively simple, limited to a small
-        number of possibilities?
-
-# Background (2)
-
--   OCR software is designed to recognize characters in image
-    data.
+-   *Optical character recognition* (OCR) software is designed to
+    recognize characters in image data.
     -   ...to *"read" the text in a picture*.
     -   It's particularly hard to recognize *handwritten*
         characters.
 
 -   But maybe we don't need to recognize characters.
-    -   If we had *a way to group similar images*.
-
--   *A human user* could interpret a single image, representative
-    of a group.
-    -   The software could then apply that interpretation to all
-        of the images in the group.
-
--   Work up to this point makes use of
-    [OpenCV](https://opencv.org/) and
-    [scikit-image](http://scikit-image.org/)
-    software libraries for computer vision and image processing,
-    via [Python](https://www.python.org/) (3) bindings.
+    -   If we had *a way to group similar images*...
+    -   A human user could interpret a single image; that
+        interpretation could be applied to all images in the group.
 
 # Overview
 
@@ -76,11 +57,11 @@
 -   What do *the scans we have* look like?
     -   [Example scan](example.jpg "example scan")...
 
--   How would we automatically *generate a template*?
+-   How might we *generate a template* to represent what scans
+    have in common?
     -   To specify where to crop cell images, where within cell
         image are boundaries to be deleted.
-    -   [Composite image](composite.jpg "composite image"),
-        [template image](template.jpg "template image")...
+    -   [Composite image](composite.jpg "composite image")...
 
 -   Will *a single template* will be sufficient?
     -   Is there enough consistency between scans?
