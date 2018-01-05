@@ -32,23 +32,6 @@
     -   A human user could interpret a single image; that
         interpretation could be applied to all images in the group.
 
-# Overview
-
--   *Generate a template* from a composite of scanned census forms.
--   *Create cell images.*
-    -   Choose a form, choose a column.
-    -   Crop images, based on template.
-
--   *Process images*, prepare for comparison.
-    -   Delete boundaries, based on template.
-    -   Reconnect broken lines.
-    -   Weight towards darkest central region.
-
--   For prepared images from same column...
-    -   *Divide into similarity-based groups*.
-    -   *Enable user to visualize results*, verify groupings,
-        assign value to group, etc.
-
 # Scans
 
 -   What do *the scans we have* look like?
