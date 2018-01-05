@@ -11,27 +11,36 @@
 <h1>David Owen</h1>
 <ul>
 <li>Associate Professor of Computer Science, <em>Messiah College</em>, Grantham, PA.</li>
-<li>This presentation: <a href="https://dvon.github.io/home/aha/aha.pdf" class="uri">https://dvon.github.io/home/aha/aha.pdf</a></li>
-</ul>
-</section>
-<section id="disclaimer" class="slide level1">
-<h1>Disclaimer</h1>
-<ul>
-<li>I’m not a historian…
-<ul>
-<li>And <em>computer vision</em> is not my research area.</li>
-<li>This is a subject I’m interested in, motivated to learn so that I might be able to teach a course in the future.</li>
-</ul></li>
-<li><em>I’d be glad to learn from you</em>, if anyone in the audience has experience in this area.</li>
+<li>This presentation: <a href="https://dvon.github.io/home/aha/" class="uri">https://dvon.github.io/home/aha/</a></li>
 </ul>
 </section>
 <section id="background" class="slide level1">
 <h1>Background</h1>
 <ul>
+<li>I’m not a historian…
+<ul>
+<li>And <em>computer vision</em> is not my research area.</li>
+<li>This is a subject I’m interested in, motivated to learn so that I might be able to teach a course in the future.</li>
+<li><em>I’d be glad to learn from you</em>, if anyone in the audience has experience in this area.</li>
+</ul></li>
+<li><em>“Computer vision?”</em>
+<ul>
+<li>For example, the software on your phone that can read a <a href="https://en.wikipedia.org/wiki/QR_code">QR code</a>, Facebook’s ability to find faces, etc.</li>
+<li>For this project I’m using the <a href="https://opencv.org/">OpenCV</a> and <a href="http://scikit-image.org/">scikit-image</a> software libraries for computer vision and image processing, via <a href="https://www.python.org/">Python</a> (3) bindings.</li>
+</ul></li>
+</ul>
+</section>
+<section id="background-2" class="slide level1">
+<h1>Background (2)</h1>
+<ul>
 <li>Census data available (from, e.g., Ancestry.com).
 <ul>
 <li>But some information missing…transcribed by volunteers.</li>
 <li>Would be <em>beneficial to have an alternative</em> way of converting to images to text.</li>
+</ul></li>
+<li>Specific goal is to <em>speed up process of converting scans</em>.
+<ul>
+<li>From Harrisburg census forms, from about 100 years ago.</li>
 </ul></li>
 <li><em>Optical character recognition</em> (OCR) software is designed to recognize characters in image data.
 <ul>
@@ -42,6 +51,28 @@
 <ul>
 <li>If we had <em>a way to group similar images</em>…</li>
 <li>A human user could interpret a single image; that interpretation could be applied to all images in the group.</li>
+</ul></li>
+</ul>
+</section>
+<section id="overview" class="slide level1">
+<h1>Overview</h1>
+<ul>
+<li><em>Generate a template</em> from a composite of scanned census forms.</li>
+<li><em>Create cell images.</em>
+<ul>
+<li>Choose a form, choose a column.</li>
+<li>Crop images, based on template.</li>
+</ul></li>
+<li><em>Process images</em>, prepare for comparison.
+<ul>
+<li>Delete boundaries, based on template.</li>
+<li>Reconnect broken lines.</li>
+<li>Weight towards darkest central region.</li>
+</ul></li>
+<li>For prepared images from same column…
+<ul>
+<li><em>Divide into similarity-based groups</em>.</li>
+<li><em>Enable user to visualize results</em>, verify groupings, assign value to group, etc.</li>
 </ul></li>
 </ul>
 </section>

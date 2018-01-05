@@ -2,24 +2,36 @@
 
 -   Associate Professor of Computer Science, *Messiah College*,
     Grantham, PA.
--   This presentation: <https://dvon.github.io/home/aha/aha.pdf>
+-   This presentation: <https://dvon.github.io/home/aha/>
 
-# Disclaimer
+# Background
 
 -   I'm not a historian...
     -   And *computer vision* is not my research area.
     -   This is a subject I'm interested in, motivated to learn so
         that I might be able to teach a course in the future.
+    -   *I'd be glad to learn from you*, if anyone in the audience
+        has experience in this area.
 
--   *I'd be glad to learn from you*, if anyone in the audience has
-    experience in this area.
+-   *"Computer vision?"*
+    -   For example, the software on your phone that can read a
+        [QR code](https://en.wikipedia.org/wiki/QR_code), Facebook's
+        ability to find faces, etc.
+    -   For this project I'm using the
+        [OpenCV](https://opencv.org/) and
+        [scikit-image](http://scikit-image.org/)
+        software libraries for computer vision and image processing,
+        via [Python](https://www.python.org/) (3) bindings.
 
-# Background
+# Background (2)
 
 -   Census data available (from, e.g., Ancestry.com).
     -   But some information missing...transcribed by volunteers.
     -   Would be *beneficial to have an alternative* way of
         converting to images to text.
+
+-   Specific goal is to *speed up process of converting scans*.
+    -   From Harrisburg census forms, from about 100 years ago.
 
 -   *Optical character recognition* (OCR) software is designed to
     recognize characters in image data.
@@ -31,6 +43,23 @@
     -   If we had *a way to group similar images*...
     -   A human user could interpret a single image; that
         interpretation could be applied to all images in the group.
+
+# Overview
+
+-   *Generate a template* from a composite of scanned census forms.
+-   *Create cell images.*
+    -   Choose a form, choose a column.
+    -   Crop images, based on template.
+
+-   *Process images*, prepare for comparison.
+    -   Delete boundaries, based on template.
+    -   Reconnect broken lines.
+    -   Weight towards darkest central region.
+
+-   For prepared images from same column...
+    -   *Divide into similarity-based groups*.
+    -   *Enable user to visualize results*, verify groupings,
+        assign value to group, etc.
 
 # Scans
 
