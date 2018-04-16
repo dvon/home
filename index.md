@@ -23,7 +23,7 @@ is just a reference to something else, which in turn
 references something else, which references yet another
 "source," etc.
 
-The background for this page is generated from the
+The background for this page is dynamically generated from the
 HTML source code from which the page is produced.  Like the
 picture, it's supposed to suggest something going on
 behind what you see on the screen---something fuzzy and inaccessible
@@ -118,11 +118,12 @@ one of these projects and forgotten about it.)
     ([from C++](https://github.com/oreillymedia/Learning-OpenCV-3_examples))
     to Python 3: <https://github.com/dvon/locv/>.
 
--   Here is a song based on Jesus' words in Matthew 5:44-45 (with
-    a tune I made up around the time my oldest son Gareth was a baby):
+-   Here is a song based on Jesus' words in Matthew 5:44-45, with
+    a tune I made up around the time my oldest son Gareth was a baby:
     [Like Your Father (Gareth's Waltz)]({{ site.baseurl }}/music/like_your_father.pdf).
-    Here's another song, based on Luke 6:20-23:
-    [He Will Give His Kingdom To You]({{ site.baseurl }}/music/he_will_give_his_kingdom_to_you.pdf).
+    Here's another song, based on John 1:18: [The Only Son]({{ site.baseurl }}/music/the_only_son.pdf).
+    <!-- Here's another song, based on Luke 6:20-23:
+    [He Will Give His Kingdom To You]({{ site.baseurl }}/music/he_will_give_his_kingdom_to_you.pdf). -->
 
 ## Acknowledgments
 
@@ -131,8 +132,8 @@ comes from reading Albert Borgmann's
 [*Power Failure: Christianity in the Culture of Technology*](http://bakerpublishinggroup.com/books/power-failure/227810),
 which introduced me to the "device paradigm," his way of talking
 about the division between the "commodity" presented to consumers
-and the hidden "machinery" required to make it happen.  I used
-[highlight.js](https://highlightjs.org/)
+and the hidden "machinery" required to make it happen.  
+I used [highlight.js](https://highlightjs.org/)
 to do the syntax highlighting, with the light version of the
 [solarized](http://ethanschoonover.com/solarized)
 colorscheme.
