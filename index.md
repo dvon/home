@@ -118,12 +118,14 @@ one of these projects and forgotten about it.)
     ([from C++](https://github.com/oreillymedia/Learning-OpenCV-3_examples))
     to Python 3: <https://github.com/dvon/locv/>.
 
--   Here is a song based on Jesus' words in Matthew 5:44-45, with
+-   A project using OpenCV to analyze images of census forms, with
+    the idea of eventually speeding up the process of data collection:
+    <https://github.com/dvon/burg/>.
+
+-   A song based on Jesus' words in Matthew 5:44-45, with
     a tune I made up around the time my oldest son Gareth was a baby:
     [Like Your Father (Gareth's Waltz)]({{ site.baseurl }}/music/like_your_father.pdf).
-    Here's another song, based on John 1:18: [The Only Son]({{ site.baseurl }}/music/the_only_son.pdf).
-    <!-- Here's another song, based on Luke 6:20-23:
-    [He Will Give His Kingdom To You]({{ site.baseurl }}/music/he_will_give_his_kingdom_to_you.pdf). -->
+    And another song, based on John 1:18: [The Only Son]({{ site.baseurl }}/music/the_only_son.pdf).
 
 ## Acknowledgments
 
