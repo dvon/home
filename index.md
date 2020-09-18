@@ -4,7 +4,7 @@ layout: src
 
 **David Owen**  
 **Associate Professor of Computer Science**  
-**Messiah College**  
+**Messiah <span style="text-decoration:line-through">College</span> University**  
 
 # Hello, world!
 
@@ -34,7 +34,7 @@ display its own syntax-highlighted HTML source code...?)
 
 # Why study computer science?
 
-I teach Computer Science at Messiah College.  So sometimes I ask
+I teach Computer Science at Messiah <span style="text-decoration:line-through">College</span> University.  So sometimes I ask
 myself, why should students want to learn about computer science?
 Because they might be good at it?  Because there are lots of
 interesting problems to solve?  Because there are good jobs?  Yes,
@@ -61,7 +61,7 @@ not just "users."
 
 Most semesters I teach Computer Programming I
 ([CIS 181](https://banner.messiah.edu:5000/BANR/mc_bwckctlg.P_EnterCatalog?subject=CIS&course=181)
-at Messiah College) and Computer Programming II
+at Messiah <span style="text-decoration:line-through">College</span> University) and Computer Programming II
 ([CIS 284](https://banner.messiah.edu:5000/BANR/mc_bwckctlg.P_EnterCatalog?subject=CIS&course=284)).
 For Programming I, we use the first 9 chapters of John Zelle's book
 [*Python Programming:  An Introduction to Computer Science*](http://mcsp.wartburg.edu/zelle/python/).
