@@ -67,14 +67,15 @@ and programming languages
 ## The Background
 
 The background for this page is dynamically generated from the
-HTML source code from which the page is produced.  Like [this
-strange picture](profound_selfie.md), it's supposed to suggest something
-going on behind what you see on the screen---something fuzzy and inaccessible
+HTML source code from which the page is produced.  <!-- Like [this
+strange picture](profound_selfie.md), it's supposed --> The idea
+was to suggest something
+going on behind what you see on the screen—something fuzzy and inaccessible
 but perhaps more real than the clearly displayed surface
-presentation.  (Also it seemed like an interesting challenge---how
+presentation.  (Also it seemed like an interesting challenge—how
 would you write the JavaScript, CSS, etc. required to make a page
 display its own syntax-highlighted HTML source code...?)
+
 I used [highlight.js](https://highlightjs.org/)
-to do the syntax highlighting, with the light version of the
-[solarized](http://ethanschoonover.com/solarized)
-colorscheme.
+to do the syntax highlighting, with my all-time favorite color
+scheme, [solarized](https://ethanschoonover.com/solarized) light.
