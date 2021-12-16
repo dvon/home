@@ -71,12 +71,12 @@ HTML source code from which the page is produced.  The idea was
 to suggest something going on behind what you see on the
 screen—something fuzzy and inaccessible but perhaps more real
 than the clearly displayed surface presentation.  (Here is
-[an odd picture](profound_selfie.md) that sort of expresses the
+[an odd picture](hello.md) that sort of expresses the
 same idea.)  Also this seemed
 like an interesting challenge—how would you write the JavaScript,
 CSS, etc. required to make a page display its own syntax-highlighted
-HTML source code ...?  Here are the relevant files if you are
-interested: [src.css](css/src.css), [src.js](js/src.js).
+HTML source code ... ?  Here are the relevant files if you are
+interested: [src.css](https://github.com/dvon/home/blob/master/css/src.css), [src.js](https://github.com/dvon/home/blob/master/js/src.js).
 
 I used [highlight.js](https://highlightjs.org/)
 to do the syntax highlighting, with my all-time favorite color
