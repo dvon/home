@@ -3,8 +3,8 @@ layout: src
 ---
 
 **David Owen**  
-**Associate Professor of Computer Science**  
-**Messiah College University**  
+**Professor of Computer Science**  
+**Messiah University**  
 
 
 # Why study computer science?
